@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.cache/
+.codegraph/
+config.local.env
+
+# Clip tải về (giữ cấu trúc thư mục)
+downloads/*
+!downloads/.gitkeep
+
+vendor/sdk/*
+!vendor/sdk/.gitkeep
+!vendor/sdk/README.md
+vendor/bin/*
+!vendor/bin/.gitkeep
+.cache/*
+!.cache/.gitkeep
